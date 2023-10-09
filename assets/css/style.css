@@ -103,12 +103,101 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+/* common style start */
+
+.caps-first { text-transform: capitalize; }
+.caps::first-letter { text-transform: capitalize; }
+
+
+/* common style end */
+
 /*=================================
   Header styling starts here
 =================================*/
 
+nav {  
+  width: 100%; 
+  margin: 20px 0 40px;
+}
 
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+.city-list li {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.london, .paris, .tokyo { border-bottom: 2px solid #BABEC4; }
+
+ .active { 
+  border-top: 1px solid #BABEC4;
+  border-left: 1px solid #BABEC4;
+  border-right: 1px solid #BABEC4;
+  border-bottom: 0;
+}
+
+.city-list li a { 
+  padding: 15px 129px;
+  font-size: 20px;
+  color: #5D4F56; 
+}
+
+.city figure {
+  width: 20%;
+  height: 100%;
+}
+
+.city figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.city-content {
+  width: 100%; 
+  display: flex; 
+}
+
+.city {display: none;}
+
+.active-city { 
+  width: 100%;
+  display: flex; 
+
+}
+
+.text-content {
+  width: 80%;
+  text-align: center;
+  border: 1px solid #BABEC4;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 35px;
+}
+
+.city-content h1::after {
+  content: "";
+  width: 10%;
+  height: 1px;
+  background: #BABEC4;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+
+p {
+  font-size: 20px;
+  color: #BABEC4;
+}
 /*=================================
   Header styling ends here
 =================================*/   
