@@ -134,7 +134,7 @@ nav ul {
   align-items: center;
 }
 
-.london, .paris, .tokyo { border-bottom: 2px solid #BABEC4; }
+.city-london, .city-paris, .city-tokyo { border-bottom: 2px solid #BABEC4; }
 
  .active { 
   border-top: 1px solid #BABEC4;
